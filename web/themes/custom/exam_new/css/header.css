@@ -1,0 +1,116 @@
+header {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 0;
+  padding-top: 20px;
+}
+.navbar-default .navbar-header {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-header .region-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-default .navbar-nav > .active > a {
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: transparent;
+}
+
+.search-block-form {
+  padding: 0 30px;
+}
+.search-block-form form .input-group input {
+  height: 40px;
+  border: 1px solid #cdcdcd;
+  border-radius: 0;
+}
+.search-block-form form .input-group input::placeholder {
+  font-size: 0;
+}
+.search-block-form form .input-group .input-group-btn button {
+  height: 40px;
+  border: 1px solid #cdcdcd;
+  border-radius: 0;
+  background-color: transparent;
+}
+.search-block-form form .input-group .input-group-btn button .icon {
+  color: #cdcdcd;
+}
+
+.menu--main {
+  text-transform: uppercase;
+  padding: 0 30px;
+}
+.menu--main a.is-active {
+  border-bottom: 7px solid #669ecc;
+}
+.menu--main .first a {
+  display: block;
+  width: 28px;
+  height: 28px;
+  background: url("../images/Homepage-menu.png") center no-repeat;
+  font-size: 0;
+  padding-bottom: 72px;
+  margin-right: 10px;
+}
+.menu--main li a {
+  padding: 52px 0;
+  margin: 0 10px;
+}
+
+#block-creativity {
+  position: relative;
+  height: 480px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  color: black;
+}
+#block-creativity:before {
+  content: "";
+  background: url("../images/header.png") center/cover no-repeat;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: -220px;
+  width: 100%;
+  height: 700px;
+}
+#block-creativity .field--name-body {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding-left: 120px;
+}
+#block-creativity .field--name-body p {
+  max-width: 250px;
+  text-transform: uppercase;
+  line-height: normal;
+  margin-bottom: 0;
+}
+#block-creativity .field--name-body p:nth-child(1) {
+  color: #ffffff;
+  font-size: 45px;
+}
+#block-creativity .field--name-body p:nth-child(2) {
+  color: #333343;
+  font-size: 29px;
+}
+#block-creativity .field--name-body p:nth-child(3) {
+  color: #679fcd;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,38 @@
+#block-views-block-our-team-block-1 {
+  max-width: 1250px;
+  margin: 0 auto;
+  .node--view-mode-teaser {
+    max-width: 290px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .field--name-field-image {}
+  .field--name-node-title {
+    color: #333343;
+    font-size: 18px;
+  }
+  .field--name-body {
+    color: #cdcdcd;
+  }
+  .field--name-node-link {
+    display: inline-block;
+    padding: 10px;
+    background-color: #333343;
+    margin: 20px auto;
+    a {
+      color: #ffffff;
+    }
+  }
+  .social-like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .social-media-links--platforms {
+      margin: 0;
+    }
+    .field--name-field-like {
+      margin-left: 70px;
+      margin-bottom: 5px;
+    }
+  }
+  }

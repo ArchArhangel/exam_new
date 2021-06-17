@@ -1,0 +1,109 @@
+.main-container {
+  .region-content {
+    max-width: 1250px;
+    margin: 0 auto;
+    #block-about {
+      border-top: 5px solid #333343;
+      border-bottom: 5px solid #669ecc;
+      max-width: 1250px;
+      margin: 0 auto;
+      margin-top: 100px;
+      .field--name-body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        h2 {
+          color: #333343;
+          text-transform: uppercase;
+          margin: 0;
+        }
+        p {
+          color: #d4d4d4;
+          text-transform: uppercase;
+          margin: 0;
+          font-size: 16px;
+          a {
+            color: #ffffff;
+            padding: 10px;
+            background-color: #669ecc;
+          }
+        }
+      }
+    }
+    .block-views {
+      padding-top: 100px;
+      .block-title {
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        text-transform: uppercase;
+        margin: 30px 0;
+        &:before {
+          content: "";
+          border: 1px solid #cdcdcd;
+          margin-right: 20px;
+          flex: 1 0 20px;
+        }
+        &:after {
+          content: "";
+          border: 1px solid #cdcdcd;
+          margin-left: 20px;
+          flex: 1 0 20px;
+        }
+      }
+      .view-services {
+        padding-top: 100px;
+        .view-content {
+          .node--type-service {
+            text-align: center;
+            text-transform: uppercase;
+            .field--name-field-image {
+              img {
+                margin: 0 auto;
+              }
+            }
+            .field--name-node-title {
+              margin: 20px 0;
+              a {
+                color: #333343;
+                font-size: 24px;
+              }
+            }
+            .field--name-body {
+              color: #cdcdcd;
+              font-size: 12px;
+            }
+            .field--name-node-link {
+              margin: 30px 0;
+              a {
+                color: #ffffff;
+                padding: 10px;
+                background-color: #669ecc;
+              }
+            }
+          }
+        }
+      }
+      .view-projects {
+        padding-top: 30px;
+      }
+      .view-our-team {
+        padding-top: 30px;
+      }
+      .view-news {
+        padding: 30px;
+      }
+      .view-clients {
+        padding: 50px 0;
+        margin-bottom: 100px;
+      }
+    }
+  }
+}
+body {
+  font-family: Roboto, sans-serif;
+}

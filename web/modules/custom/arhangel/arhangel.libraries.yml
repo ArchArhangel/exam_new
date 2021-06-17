@@ -1,0 +1,10 @@
+hero-style:
+  css:
+    theme:
+      css/animate.css: {}
+#  js:
+#    js/jquery.hoverIntent.js: {}
+#    js/admin_toolbar.js: {}
+#  dependencies:
+#    - core/jquery
+#    - core/drupal

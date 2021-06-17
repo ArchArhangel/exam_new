@@ -1,0 +1,50 @@
+article .content .layout--twocol-section--50-50 {
+  max-width: 940px;
+  margin: 0 auto;
+}
+article .content .layout--twocol-section--50-50 .layout__region--first {
+  padding-right: 10px;
+}
+article .content .layout--twocol-section--50-50 .layout__region--first form input {
+  height: 50px;
+  padding: 20px 10px;
+  border: 1px solid #aaaaaa;
+  border-radius: 0;
+  margin-bottom: 15px;
+}
+article .content .layout--twocol-section--50-50 .layout__region--first form input::placeholder {
+  color: #acacac;
+  text-transform: uppercase;
+}
+article .content .layout--twocol-section--50-50 .layout__region--first form textarea {
+  height: 200px;
+  padding: 20px 10px;
+  border: 1px solid #aaaaaa;
+  border-radius: 0;
+  margin-bottom: 15px;
+  resize: none;
+}
+article .content .layout--twocol-section--50-50 .layout__region--first form textarea::placeholder {
+  color: #acacac;
+  text-transform: uppercase;
+}
+article .content .layout--twocol-section--50-50 .layout__region--first form .form-submit {
+  padding: 20px 35px;
+  text-transform: uppercase;
+  background-color: #e92f00;
+}
+article .content .layout--twocol-section--50-50 .layout__region--second {
+  padding-left: 10px;
+}
+article .content .layout--twocol-section--50-50 .layout__region--second .field--name-body p {
+  margin-bottom: 5px;
+}
+article .content .layout--twocol-section--50-50 .layout__region--second .field--name-body p:first-child {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+article .content .layout--twocol-section--50-50 .layout__region--second .field--name-body p:last-child {
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=contacts.css.map */

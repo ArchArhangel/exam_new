@@ -1,0 +1,57 @@
+.views-containers {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.page-header {
+  max-width: 1250px;
+  margin: 0 auto;
+  text-align: center;
+  border: none;
+  padding-bottom: 20px;
+}
+nav.tabs {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.node {
+  .contextual-links {
+    text-transform: none;
+  }
+}
+article.page {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+article.project {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+article.service {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.node--type-client,
+.node--type-news,
+.node--type-team {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.logo-custom {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #333343;
+  .navbar-brand {
+    padding: 0;
+    height: auto;
+    font-size: 36px;
+    font-weight: 700;
+    color: #669ecc;
+  }
+  .navbar-text {
+    margin: 0;
+    font-size: 16px;
+    color: #cbcace;
+    padding-top: 10px;
+  }
+}

@@ -1,0 +1,15 @@
+arhangel_new.form:
+  path: '/guest_book_form/{id}'
+  defaults:
+    _form: '\Drupal\arhangel_new\Form\FirstCustomForm'
+    _title: 'Guest book form'
+  requirements:
+    _permission: 'access content'
+
+arhangel_new.page:
+  path: '/guest_book'
+  defaults:
+    _controller: '\Drupal\arhangel_new\Controller\GuestBookController::custom_page'
+    _title: 'Guest book'
+  requirements:
+    _permission: 'access content'

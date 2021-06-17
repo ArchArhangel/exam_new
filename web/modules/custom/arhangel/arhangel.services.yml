@@ -1,0 +1,4 @@
+services:
+  arhangel.hero_articles:
+    class: Drupal\arhangel\HeroArticleService
+    arguments: ['@entity.query', '@entity.manager']

@@ -1,0 +1,39 @@
+#block-views-block-our-team-block-1 {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+#block-views-block-our-team-block-1 .node--view-mode-teaser {
+  max-width: 290px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#block-views-block-our-team-block-1 .field--name-node-title {
+  color: #333343;
+  font-size: 18px;
+}
+#block-views-block-our-team-block-1 .field--name-body {
+  color: #cdcdcd;
+}
+#block-views-block-our-team-block-1 .field--name-node-link {
+  display: inline-block;
+  padding: 10px;
+  background-color: #333343;
+  margin: 20px auto;
+}
+#block-views-block-our-team-block-1 .field--name-node-link a {
+  color: #ffffff;
+}
+#block-views-block-our-team-block-1 .social-like {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#block-views-block-our-team-block-1 .social-like .social-media-links--platforms {
+  margin: 0;
+}
+#block-views-block-our-team-block-1 .social-like .field--name-field-like {
+  margin-left: 70px;
+  margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=team.css.map */

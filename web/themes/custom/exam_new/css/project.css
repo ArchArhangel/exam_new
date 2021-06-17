@@ -1,0 +1,58 @@
+#block-views-block-projects-block-1 .block-title {
+  max-width: 1250px;
+  margin: 30px auto;
+}
+#block-views-block-projects-block-1 .form-group {
+  background: url("../images/background.jpg");
+  padding-bottom: 100px;
+}
+#block-views-block-projects-block-1 .view-projects {
+  max-width: 1250px;
+  margin: 0 auto;
+  text-align: center;
+}
+#block-views-block-projects-block-1 .view-projects .node--view-mode-teaser {
+  max-width: 290px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #333343;
+  text-transform: uppercase;
+}
+#block-views-block-projects-block-1 .view-projects .field--name-node-title a {
+  color: #333343;
+  font-size: 30px;
+}
+#block-views-block-projects-block-1 .view-projects .field--name-field-development a {
+  font-size: 16px;
+}
+#block-views-block-projects-block-1 .view-projects .field--name-field-development a[href="/taxonomy/term/1"] {
+  color: #00bc9d;
+}
+#block-views-block-projects-block-1 .view-projects .field--name-field-development a[href="/taxonomy/term/2"] {
+  color: #9e5cb7;
+}
+#block-views-block-projects-block-1 .view-projects .field--name-field-development a[href="/taxonomy/term/3"] {
+  color: #f14c33;
+}
+#block-views-block-projects-block-1 .view-projects .field--name-field-development a[href="/taxonomy/term/4"] {
+  color: #00ace2;
+}
+#block-views-block-projects-block-1 .view-projects .field--name-node-link {
+  display: inline-block;
+  padding: 10px;
+  background-color: #333343;
+  margin: 15px auto;
+}
+#block-views-block-projects-block-1 .view-projects .field--name-node-link a {
+  color: #ffffff;
+}
+#block-views-block-projects-block-1 .pager-nav .pagination li a {
+  background-color: transparent;
+  color: #646464;
+  border-color: transparent;
+  border-radius: 50%;
+}
+#block-views-block-projects-block-1 .pager-nav .pagination li.is-active a {
+  background-color: #deddde;
+}
+
+/*# sourceMappingURL=project.css.map */

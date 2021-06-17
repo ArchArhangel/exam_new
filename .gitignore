@@ -1,0 +1,54 @@
+# gitignore template for Drupal 9 projects
+
+# Ignore configuration files that may contain sensitive information
+/web/sites/*/*settings*.php
+/web/sites/*/*services*.yml
+
+# Ignore paths that may contain user-generated content
+/web/sites/*/files
+/web/sites/*/public
+/web/sites/*/private
+/web/sites/*/files-public
+/web/sites/*/files-private
+web/sites/*/files/php
+# Ignore paths that may contain temporary files
+/web/sites/*/translations
+/web/sites/*/tmp
+/web/sites/*/cache
+
+# Ignore testing related files
+/web/sites/simpletest
+
+# Ignore drupal core (if not versioning drupal sources)
+/web/core
+/vendor
+/.idea
+/web/modules/README.txt
+/web/modules/contrib
+/web/profiles/README.txt
+/web/sites/README.txt
+/web/sites/example.sites.php
+/web/sites/example.settings.local.php
+/web/sites/development.services.yml
+!/web/sites/default/files/
+/web/themes/README.txt
+/web/themes/contrib
+/web/themes/custom/*/node_modules
+# /web/themes/custom/*/css
+.editorconfig
+.gitattributes
+/web/autoload.php
+/web/example.gitignore
+/web/index.php
+/web/INSTALL.txt
+/web/README.txt
+/web/robots.txt
+/web/update.php
+/web/web.config
+/web/.csslintrc
+/web/.eslintignore
+/web/.eslintrc.json
+/web/.ht.router.php
+/web/.htaccess
+/web/LICENSE.txt
+/web/LICENSE

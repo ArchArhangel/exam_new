@@ -1,0 +1,109 @@
+#block-views-block-news-block-1 {
+  .block-title {
+    max-width: 1250px;
+    margin: 30px auto;
+  }
+  .form-group {
+    background: url("../images/background.jpg");
+    padding-bottom: 20px;
+  }
+  .view-news {
+    max-width: 1250px;
+    margin: 0 auto;
+    .view-filters {
+      margin-bottom: 0;
+      form {}
+    }
+    .view-content {
+      .node--type-news {
+        background-color: #ffffff;
+        margin-right: 30px;
+        padding: 20px;
+        .author-custom {
+          display: flex;
+          .field--name-dynamic-token-fieldnode-post-date {
+            width: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            .my-1 {
+              text-transform: uppercase;
+              line-height: normal;
+              font-size: 18px;
+              color: #333343;
+            }
+            .my-2 {
+              line-height: normal;
+              font-size: 36px;
+              color: #669ecc;
+            }
+            .my-3 {
+              line-height: normal;
+              font-size: 14px;
+              color: #cdcdcd;
+            }
+          }
+          .field--name-field-image {
+            padding-left: 20px;
+            margin-left: 20px;
+            border-left: 1px solid #cdcdcd;
+          }
+          .field--name-field-writer {
+            .field--label {
+              padding-left: 10px;
+              color: #d7d7d7;
+              &:after {
+                content: "";
+              }
+            }
+            .field--items {
+              .field--item {
+                .paragraph--type--writer {
+                  display: flex;
+                  .field--name-field-writer {
+                    color: #333343;
+                    &:after {
+                      content: " /";
+                    }
+                  }
+                  .field--name-field-job {
+                    color: #679fcd;
+                    padding-left: 5px;
+                  }
+                }
+              }
+            }
+          }
+          .field--name-field-date {
+            color: #dbdbdb;
+          }
+        }
+        .title-custom {
+          padding-left: 20px;
+          border-left: 1px solid #cdcdcd;
+          margin-left: 70px;
+          text-transform: uppercase;
+          .field--name-node-title {
+            a {
+              font-size: 22px;
+              color: #333343;
+            }
+          }
+          .field--name-body {
+            font-size: 12px;
+          }
+          .field--name-node-link {
+            display: inline-block;
+            float: right;
+            padding: 10px;
+            background-color: #333343;
+            a {
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

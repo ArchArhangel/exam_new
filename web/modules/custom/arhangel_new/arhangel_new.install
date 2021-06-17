@@ -1,0 +1,75 @@
+<?php
+
+/**
+ * Implements hook_schema().
+ */
+function arhangel_new_schema() {
+  $schema['guest_book_form'] = [
+    'description' => 'The base table for guest_book_form',
+    'fields' => [
+      'id' => [
+        'description' => 'table_id',
+        'type' => 'serial',
+        'not null' => TRUE,
+        'unsigned' => TRUE,
+      ],
+      'name' => [
+        'description' => 'user_name',
+        'type' => 'varchar',
+        'length' => 100,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'email' => [
+        'description' => 'user_email',
+        'type' => 'varchar',
+        'length' => 100,
+        'not null' => TRUE,
+        'default' => '',
+        ],
+      'phone' => [
+        'description' => 'user_phone',
+        'type' => 'varchar',
+        'length' => 100,
+        'not null' => TRUE,
+        'default' => '',
+        ],
+      'feedback' => [
+        'description' => 'user_feedback',
+        'type' => 'varchar',
+//        'type' => 'text',
+        'length' => 255,
+//        'size' => 'small',
+//        'not null' => FALSE,
+        'not null' => TRUE,
+        'default' => '',
+        ],
+      'avatar' => [
+        'description' => 'user_avatar',
+        'type' => 'int',
+        'not null' => FALSE,
+        'unsigned' => TRUE,
+        'default' => 0,
+        ],
+      'images' => [
+        'description' => 'user_images',
+        'type' => 'int',
+        'not null' => FALSE,
+        'unsigned' => TRUE,
+        'default' => 0,
+        ],
+      'timestamp' => [
+        'description' => 'timestamp',
+        'type' => 'int',
+        'not null' => TRUE,
+        'unsigned' => TRUE,
+        'default' => 0,
+        ],
+
+    ],
+    'primary key' => [
+      'id',
+      ],
+  ];
+  return $schema;
+}

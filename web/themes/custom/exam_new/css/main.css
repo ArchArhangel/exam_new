@@ -1,0 +1,106 @@
+.main-container .region-content {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.main-container .region-content #block-about {
+  border-top: 5px solid #333343;
+  border-bottom: 5px solid #669ecc;
+  max-width: 1250px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.main-container .region-content #block-about .field--name-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.main-container .region-content #block-about .field--name-body h2 {
+  color: #333343;
+  text-transform: uppercase;
+  margin: 0;
+}
+.main-container .region-content #block-about .field--name-body p {
+  color: #d4d4d4;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 16px;
+}
+.main-container .region-content #block-about .field--name-body p a {
+  color: #ffffff;
+  padding: 10px;
+  background-color: #669ecc;
+}
+.main-container .region-content .block-views {
+  padding-top: 100px;
+}
+.main-container .region-content .block-views .block-title {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+.main-container .region-content .block-views .block-title:before {
+  content: "";
+  border: 1px solid #cdcdcd;
+  margin-right: 20px;
+  flex: 1 0 20px;
+}
+.main-container .region-content .block-views .block-title:after {
+  content: "";
+  border: 1px solid #cdcdcd;
+  margin-left: 20px;
+  flex: 1 0 20px;
+}
+.main-container .region-content .block-views .view-services {
+  padding-top: 100px;
+}
+.main-container .region-content .block-views .view-services .view-content .node--type-service {
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-container .region-content .block-views .view-services .view-content .node--type-service .field--name-field-image img {
+  margin: 0 auto;
+}
+.main-container .region-content .block-views .view-services .view-content .node--type-service .field--name-node-title {
+  margin: 20px 0;
+}
+.main-container .region-content .block-views .view-services .view-content .node--type-service .field--name-node-title a {
+  color: #333343;
+  font-size: 24px;
+}
+.main-container .region-content .block-views .view-services .view-content .node--type-service .field--name-body {
+  color: #cdcdcd;
+  font-size: 12px;
+}
+.main-container .region-content .block-views .view-services .view-content .node--type-service .field--name-node-link {
+  margin: 30px 0;
+}
+.main-container .region-content .block-views .view-services .view-content .node--type-service .field--name-node-link a {
+  color: #ffffff;
+  padding: 10px;
+  background-color: #669ecc;
+}
+.main-container .region-content .block-views .view-projects {
+  padding-top: 30px;
+}
+.main-container .region-content .block-views .view-our-team {
+  padding-top: 30px;
+}
+.main-container .region-content .block-views .view-news {
+  padding: 30px;
+}
+.main-container .region-content .block-views .view-clients {
+  padding: 50px 0;
+  margin-bottom: 100px;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

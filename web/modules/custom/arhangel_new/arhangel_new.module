@@ -1,0 +1,14 @@
+<?php
+
+
+/**
+ * Implements hook_theme().
+ */
+function arhangel_new_theme($existing, $type, $theme, $path) {
+
+  return [
+    'guest_book' => [
+      'variables' => ['fields' => [], 'form' => [], 'users' => '',],
+    ],
+  ];
+}

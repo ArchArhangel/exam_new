@@ -1,0 +1,10 @@
+guest_book-style:
+  css:
+    theme:
+      css/feedback_style.css: {}
+#  js:
+#    js/guest_book_form.js: {}
+  dependencies:
+    - core/drupal.dialog.ajax
+    - core/jquery
+    - core/jquery.form

@@ -1,0 +1,31 @@
+arhangel.herolist:
+  path: '/hero-list'
+  defaults:
+    _controller: '\Drupal\arhangel\Controller\HeroController::heroList'
+    _title: 'Our heroes list'
+  requirements:
+    _permission: 'access content'
+
+arhangel.heroform:
+  path: '/hero-form'
+  defaults:
+    _form: '\Drupal\arhangel\Form\HeroForm'
+    _title: 'Who will win'
+  requirements:
+    _permission: 'access content'
+
+arhangel.exampleform:
+  path: '/example-form'
+  defaults:
+    _form: '\Drupal\arhangel\Form\ExampleForm'
+    _title: 'Showcase some elements'
+  requirements:
+    _permission: 'access content'
+
+arhangel.ajaxheroform:
+  path: '/ajax-form'
+  defaults:
+    _form: '\Drupal\arhangel\Form\AjaxHeroForm'
+    _title: 'Ajax hero form battle'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,45 @@
+framework:
+  css:
+    theme:
+      "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" : {external: true}
+      css/style.css: {}
+      css/header.css: {}
+      css/footer.css: {}
+      css/main.css: { }
+      css/global.css: {}
+      css/clients.css: {}
+      css/news.css: {}
+      css/project.css: {}
+      css/service.css: {}
+      css/team.css: {}
+      css/contacts.css: {}
+
+# Uncomment for LESS source JavaScript files.
+#  js:
+#    bootstrap/js/affix.js: {}
+#    bootstrap/js/alert.js: {}
+#    bootstrap/js/button.js: {}
+#    bootstrap/js/carousel.js: {}
+#    bootstrap/js/collapse.js: {}
+#    bootstrap/js/dropdown.js: {}
+#    bootstrap/js/modal.js: {}
+#    bootstrap/js/tooltip.js: {}
+#    bootstrap/js/popover.js: {}
+#    bootstrap/js/scrollspy.js: {}
+#    bootstrap/js/tab.js: {}
+#    bootstrap/js/transition.js: {}
+
+# Uncomment for SASS source JavaScript files.
+#  js:
+#    bootstrap/assets/javascripts/bootstrap/affix.js: {}
+#    bootstrap/assets/javascripts/bootstrap/alert.js: {}
+#    bootstrap/assets/javascripts/bootstrap/button.js: {}
+#    bootstrap/assets/javascripts/bootstrap/carousel.js: {}
+#    bootstrap/assets/javascripts/bootstrap/collapse.js: {}
+#    bootstrap/assets/javascripts/bootstrap/dropdown.js: {}
+#    bootstrap/assets/javascripts/bootstrap/modal.js: {}
+#    bootstrap/assets/javascripts/bootstrap/tooltip.js: {}
+#    bootstrap/assets/javascripts/bootstrap/popover.js: {}
+#    bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
+#    bootstrap/assets/javascripts/bootstrap/tab.js: {}
+#    bootstrap/assets/javascripts/bootstrap/transition.js: {}

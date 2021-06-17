@@ -1,0 +1,71 @@
+#block-views-block-projects-block-1 {
+  .block-title {
+    max-width: 1250px;
+    margin: 30px auto;
+  }
+  .form-group {
+    background: url("../images/background.jpg");
+    padding-bottom: 100px;
+  }
+  .view-projects {
+    max-width: 1250px;
+    margin: 0 auto;
+    .node--view-mode-teaser {
+      max-width: 290px;
+      background-color: #ffffff;
+      border-bottom: 1px solid #333343;
+      text-transform: uppercase;
+    }
+    text-align: center;
+    .field--name-field-image {}
+    .field--name-node-title {
+      a {
+        color: #333343;
+        font-size: 30px;
+      }
+    }
+    .field--name-field-development {
+      a {
+        font-size: 16px;
+      }
+      a[href="/taxonomy/term/1"] {
+        color: #00bc9d;
+      }
+      a[href="/taxonomy/term/2"] {
+        color: #9e5cb7;
+      }
+      a[href="/taxonomy/term/3"] {
+        color: #f14c33;
+      }
+      a[href="/taxonomy/term/4"] {
+        color: #00ace2;
+      }
+    }
+    .field--name-node-link {
+      display: inline-block;
+      padding: 10px;
+      background-color: #333343;
+      margin: 15px auto;
+      a {
+        color: #ffffff;
+      }
+    }
+  }
+  .pager-nav {
+    .pagination {
+      li {
+        a {
+          background-color: transparent;
+          color: #646464;
+          border-color: transparent;
+          border-radius: 50%;
+        }
+        &.is-active {
+          a {
+            background-color: #deddde;
+          }
+        }
+      }
+    }
+  }
+}

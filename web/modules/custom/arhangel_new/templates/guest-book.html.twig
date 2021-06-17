@@ -1,0 +1,35 @@
+{{ attach_library('arhangel_new/guest_book-style') }}
+
+{#{{ dump(users) }}#}
+
+{#{% if user.hasPermission('administer nodes') %}#}
+{#  ... do something#}
+{#{% endif %}#}
+
+{{ form }}
+
+{% for field in fields %}
+  <div class="custom-wrapper">
+    <div class="flex-wrapper">
+      <div class="users-name">
+        <img src="{{ field.avatar }}" width="100" height="100" class="feedback-avatar">
+        <p>{{ field.name }}</p>
+        <p>{{ field.timestamp|date("m/d/Y H:i:s") }}</p>
+      </div>
+      <div class="users-contacts">
+        <p>{{ field.phone }}</p>
+        <p>{{ field.email }}</p>
+      </div>
+    </div>
+    <div class="users-feedback">
+      <p>{{ field.feedback }}</p>
+      {% if field.images %}
+        <img src="{{ field.images }}" width="100" height="100" class="feedback-images">
+      {% endif %}
+    </div>
+    {% if users %}
+      <a href="/guest_book_form/{{ field.id }}" class="use-ajax edit-button" data-dialog-type="modal">Edit</a>
+    {% endif %}
+    <br>
+  </div>
+{% endfor %}
